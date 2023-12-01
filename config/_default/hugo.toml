@@ -1,0 +1,43 @@
+baseURL = 'https://www.example.com' #!! bien changer si on part sur hebergement
+#env = "production"             #pour activer le robot.txt sur hébergement ne marche pas ! utiliser la commande  HUGO_ENV=production hugo --gc --minify
+theme = 'ananke'
+#####Languages####
+defaultContentLanguage = 'fr'
+defaultContentLanguageInSubdir = true #if true the 404 page does not display, if false the /fr/sitemap.xml is not canonical
+
+resourceDir = "./resources"
+
+mainSections = [
+    'page',
+    'posts',
+] #affiche dans index les pages des sections page et post (lire le code layout index
+SectionPagesMenu = "main"
+Paginate = 6 # this is set low for demonstrating with dummy content. Set to a higher number
+
+enableRobotsTXT = true
+
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[Params]
+text_color = ""
+description = "Android mobile traceability Apps."
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-mid-gray"
+body_classes = "avenir bg-washed-yellow"
+post_content_classes = "avenir bg-light-yellow"
+cover_dimming_class = "bg-black-60"
+date_format = "January 2. 2006"
+
+recent_posts_number = 6
+show_reading_time = true
+
+toc = true #Tabl of contents , pas vu où l'afficher ?
+
+custom_css = ["custom.css"]
+
+[[Params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/productivix"

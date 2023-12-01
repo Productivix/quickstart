@@ -1,0 +1,51 @@
+[en]
+languageName = 'English'
+weight = 2
+disabled = false
+languageCode = 'en-US'
+languageDirection = 'ltr'
+#title et desc dans l'index de la langue: non marche pas sur pages internationalles
+title = "Modular & interfaced Android applications for mobile reading data"
+
+[en.params]
+read_more_copy = "Read more about..."
+description = "SMEs, VSEs: need a fast, affordable mobile data capture app (AIDC) for traceability? Your professional data acquisition or printing application on smartphone or terminal with scanner linked to databases is tailor-made here."
+
+[fr]
+languageName = 'Français'
+weight = 1
+disabled = false
+languageCode = 'fr-FR'
+languageDirection = 'ltr'
+title = "Applications Android modulaires interfacées de lecture mobile de données"
+
+[fr.params]
+read_more_copy = "En savoir plus..."
+date_format = "2 January 2006"
+description = "besoin d'une app de saisie mobile rapide de traçabilité abordable ? votre application professionnelle d'acquisition de données ou d'impression sur smartphone ou terminal avec scanner liée à des bases de données ici sur mesure"
+
+[it]
+languageName = 'Italien'
+weight = 3
+disabled = false
+languageCode = 'it-IT'
+languageDirection = 'ltr'
+title = 'Applicazioni Android modulari per la lettura dei dati in mobilità'
+
+[it.params]
+description = "PMI e VSE: avete bisogno di un'applicazione di acquisizione dati mobile veloce per la tracciabilità a prezzi accessibili? la vostra applicazione professionale di acquisizione o stampa dati su smartphone o terminale con scanner collegato a database qui su misura"
+read_more_copy = "Per saperne di più..."
+date_format = "2 January 2006"
+
+[de]
+languageName = 'Deutsch'
+weight = 4
+disabled = false
+languageCode = 'de-DE'
+languageDirection = 'ltr'
+title = 'Modulare Android-Anwendungen mit Schnittstellen zum mobilen Lesen von Daten'
+
+[de.params]
+description = "KMU, Kleinstunternehmen: brauchen Sie eine bezahlbare App für die schnelle mobile Datenerfassung zur Rückverfolgbarkeit? Ihre professionelle Anwendung zur Datenerfassung oder zum Drucken auf Smartphones oder Terminals mit Scanner, die mit Datenbanken verknüpft sind hier nach Maß"
+read_more_copy = "Mehr erfahren..."
+date_format = "2 January 2006"
