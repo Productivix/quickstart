@@ -1,4 +1,4 @@
-baseURL = 'https://www.example.com' #!! bien changer si on part sur hebergement
+baseURL = 'https://example-quickstart-multil-hugo.onrender.com' #!! bien changer si on part sur hebergement
 #env = "production"             #pour activer le robot.txt sur hébergement ne marche pas ! utiliser la commande  HUGO_ENV=production hugo --gc --minify
 theme = 'ananke'
 #####Languages####
